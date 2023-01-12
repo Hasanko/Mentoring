@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+}
+
+.wrapper{
+    display: grid;
+    grid-template-rows: 64px auto 64px;
+    height: 100vh;
+}
+
+.footer nav{
+    display: flex;
+    justify-content: space-between;
+}
